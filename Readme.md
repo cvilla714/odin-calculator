@@ -8,11 +8,11 @@
 ## Built With
 
 - CSS/Grid
-- Jquery
+- JavaScript
 
 ## Live Demo
 
-[Live Demo Link](https://cvilla714.github.io/sketch/)
+[Live Demo Link](https://cvilla714.github.io/odin-calculator/)
 
 ## Getting Started
 
@@ -20,9 +20,9 @@
 
 ### Install
 
-**Now to clone it to your local machine please open your terminal and paste this code `git@github.com:cvilla714/sketch.git`**
+**Now to clone it to your local machine please open your terminal and paste this code `git@github.com:cvilla714/odin-calculator.git`**
 
-**Then you can go into the directory by typig `cd sketch `**
+**Then you can go into the directory by typig `cd odin-calculator `**
 
 ### Usage
 
@@ -40,7 +40,7 @@
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/cvilla714/sketch/pulls).
+Feel free to check the [issues page](https://github.com/cvilla714/odin-calculator/pulls).
 
 ## Show your support
 
@@ -48,4 +48,4 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-This project is [MIT](https://github.com/cvilla714/sketch/blob/master/LICENSE) licensed.
+This project is [MIT](https://github.com/cvilla714/odin-calculator/blob/master/LICENSE) licensed.

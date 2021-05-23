@@ -1,0 +1,60 @@
+/* this link explains why use the ::before and ::after */
+/* https://stackoverflow.com/questions/31317238/why-use-selector-in-combination-with-before-and-after */
+/* this will take care mainly of the font and boldness */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+}
+/* this will take care of the color transferring from blue to yellow from left to right */
+body {
+  padding: 0;
+  margin: 0;
+  background: linear-gradient(to right, blue, yellow);
+}
+.calculator-grid {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  /* align-items: center; */
+  min-height: 100vh;
+  grid-template-columns: repeat(4, 100px);
+  /* i had to include an extra row in order to make it all look even */
+  grid-template-rows: minmax(120px, auto) repeat(6, 100px);
+}
+.calculator-grid > button {
+  cursor: pointer;
+  font-size: 1.5rem;
+  border: 1px solid white;
+  outline: none;
+  background-color: rgba(255, 255, 255, 0.75);
+}
+.calculator-grid > butotn:hover {
+  background-color: rgba(255, 255, 255, 0.9);
+}
+.span-two {
+  /* this will make the button span two columns */
+  grid-column: span 2;
+}
+.output {
+  /* this will make it span from the first column to the last  */
+  grid-column: 1/-1;
+  background-color: rgba(255, 0, 0, 0.75);
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+  flex-direction: column;
+  padding: 10px;
+  word-wrap: break-word;
+  word-break: break-all;
+}
+.output .number-ontop {
+  color: rgba(255, 255, 255, 0.75);
+  font-size: 1.5rem;
+}
+.output .number-onbottom {
+  color: white;
+  font-size: 2.5rem;
+}
